@@ -1,0 +1,1104 @@
+@charset "UTF-8";
+/**************************************************************************************
+
+トップブロック用デザイン
+
+**************************************************************************************/
+
+/*一番上のブロック（タイトルが書かれる場所）の設定*/
+
+#TopBlock {
+  padding: 1.8rem 0 .8rem ;
+}
+/*ページタイトル文字部分の設定*/
+
+#TopTitle {
+  width: 98%;
+  margin: 0 auto;
+  padding: 0 1%;
+  color: #555;
+}
+#TopText {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+}
+#TopText {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+}
+#TopText a:link, #TopText a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #555;
+}
+#TopText a:hover {
+  font-weight: bold;
+}
+/*ページタイトルの下に来るブログの説明文書*/
+
+#TopExplanation {
+  padding: 0.6em 0;
+  line-height: 1.4;
+  font-size: 12px;
+  text-align: center;
+}
+#MenuPage {
+  text-align: center;
+  padding: 0 10px 20px 0;
+}
+#MenuPage ul {
+  line-height: 2.5rem;
+  text-align: center;
+  width: 98%;
+  margin: 6px auto 0;
+}
+#MenuPage li {
+  display: inline;
+  margin: 0 1rem 0 0;
+}
+#MenuPage a:link, #MenuPage a:visited {
+  padding: 0 12px 10px;
+  text-decoration: none;
+  color: #1458b4;
+  border-bottom: 2px solid #1458b4;
+  display: inline-block;
+}
+/**************************************************************************************
+
+フッターブロック用デザイン
+
+**************************************************************************************/
+
+/*一番下のブロック（著作権表示が書かれる場所）の設定*/
+
+#FooterBlock {
+  margin: 15px auto;
+  width: 98%;
+}
+#FooterBlock ul {
+}
+#FooterBlock li {
+  padding: 0 0.4em;
+  font-size: 80%;
+  color: #666666;
+  text-align: center;
+}
+/**************************************************************************************
+
+  プラグインブロック用デザイン
+
+**************************************************************************************/
+
+/*プラグイン表示箇所全体の設定*/
+
+.PluginBlock {
+  margin: 0;
+  padding: 0 0 20px;
+  width: 100%;
+}
+/*プラグイン表示箇所の背景や余白設定*/
+
+.PluginInnerBlock {
+  padding: 1em 0;
+  margin: 0 0 2px 0;
+  background: #fff;
+  padding: 15px;
+}
+/*プラグインのタイトル（名称）部分の設定*/
+
+.PluginTitle {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 15px 0 5px 10px;
+  margin: -15px -10px 0px;
+  width: auto;
+  color: #47b2d0;
+}
+/*プラグインの説明部分の設定*/
+
+.PluginExplanation {
+  line-height: 1.4;
+}
+/*プラグインが表示される場所の設定*/
+
+.PluginContents {
+  padding: 10px 0;
+  line-height: 1.6;
+}
+.PluginContents li {
+  line-height: 1.6;
+}
+/**************************************************************************************
+
+  記事ブロック用デザイン
+
+**************************************************************************************/
+
+/*記事繰り返し処理全ての部分の設定*/
+
+#EntryBlock {
+  width: 100%;
+}
+/*記事表示部分の背景や余白等の設定*/
+
+.EntryInnerBlock {
+  padding: 4px 10px 10px;
+  width: auto;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(33,33,33,0.1);
+  margin: 0 0 20px;
+}
+/*各記事タイトル部分の設定*/
+
+.EntryTitle {
+  font-weight: bold;
+  padding: 0.6em 0 0.5em;
+  font-size: 24px;
+}
+.EntryTitle a:link, .EntryTitle a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+  line-height: 1.15;
+}
+.EntryTitle a:hover {
+  color: #999999;
+}
+/*各記事タイトル部分の文字色設定*/
+
+.EntryTitleFont {
+}
+/*各記事やコメント、トラックバックなどの総合のブロック部分*/
+
+.EntryTextBox {
+  margin: 10px 10px 0;
+}
+/*記事本文が記載される部分*/
+
+.EntryText {
+  padding: 1em 0;
+  font-size: 15px;
+  line-height: 1.75;
+}
+.EntryText * {
+  line-height: 1.75;
+}
+.EntryText h1,  .EntryText h2,  .EntryText h3,  .EntryText h4,  .EtnryText h5,  .EntryText h6 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.EntryText h1 {
+  font-size: 140%;
+}
+.EntryText h2 {
+  font-size: 130%;
+}
+.EntryText h3 {
+  font-size: 115%;
+}
+.EntryText img {
+  max-width: 100%;
+  margin: 5px 10px 10px 0;
+}
+.EntryText ul {
+  margin: 0.5em 0;
+  list-style: disc inside;
+}
+.EntryText ol {
+  margin: 0.5em 0;
+  list-style: decimal inside;
+}
+.EntryText td,  .EntryText th {
+  padding: 0.5em;
+  border: 1px solid #999999;
+}
+.EntryText blockquote,  .EntryText quote {
+  margin: 1em 0 1em 3em;
+}
+.EntryNote ul {
+  border-bottom: 0.065rem dotted #dfdfdf;
+  padding: 0 0 8px;
+  font-size: 12px;
+}
+.EntryNote li {
+  display: inline-block;
+  padding: 5px 10px 5px 0;
+}
+.EntryNote li a {
+  color: #1458b4;
+  text-decoration: none;
+}
+/*「つづきを読む」が記載される部分*/
+
+.EntryPsText {
+  padding: 1em 0;
+}
+.EntryPsText a {
+  padding-left: 13px;
+  background: url(http://bfile.shinobi.jp/img//ico-arrow1.gif) no-repeat 0 50%;
+}
+/*拍手ボタンの設定*/
+
+
+/*記事へのリンク（コメントやトラックバック等）の背景*/
+
+.EntryFooter {
+  padding: 0.3em 0 1em;
+  text-align: right;/*border-top:1px solid #cccccc;*/
+
+}
+.EntryFooter ul {
+}
+.EntryFooter li {
+  padding: 0 0 0 1em;
+  display: inline-block;
+  float: right;
+}
+.EntryFooter li a:link, .EnryFooter li a:visited {
+  display: inline-block;
+  padding: 0 0 0 13px;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow1.gif) no-repeat 0 50%;
+  text-decoration: none;
+  font-size: 90%;
+}
+.EntryFooter li a:hover {
+  text-decoration: underline;
+}
+/*記事の投稿者名が記載されている部分*/
+
+.EntryUserName {
+}
+/*記事を投稿した日が記載されている部分*/
+
+.EntryWriteDate {
+}
+/*記事のカテゴリ名が記載されている部分*/
+
+.EntryCategory {
+}
+/*記事へのコメントリンクが記載されている部分*/
+
+.EntryComment {
+}
+/*次の記事やHOMEへのリンクが表示される背景部分*/
+
+.PageLinkBlock {
+  margin: 0 auto;
+  display: block;
+  padding: 2em 0;
+}
+.PageLinkBlock ul {
+  text-align: left;
+}
+.PageLinkBlock li {
+  display: inline;
+  background: #f8f8f8;
+  padding: 8px 10px;
+}
+.PageLinkBlock li a.prev {
+  padding-right: 13px;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow2.gif) no-repeat 100% 50%;
+}
+.PageLinkBlock li a.next {
+  padding-left: 13px;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow1.gif) no-repeat 0 50%;
+}
+.PageLink10 {
+  padding: 2em 0 0;
+  text-indent: center;
+}
+/**************************************************************************************
+
+  各コメント表示部分の設定
+
+**************************************************************************************/
+
+/*コメント全体の設定*/
+
+.CommentBlock {
+  padding: 1em 0 0;
+}
+#EntryBlock .CommentBlock {
+  padding: 1rem;
+  background: #f8f8f8;
+}
+/*この記事にコメントする　と書かれてる部分の設定*/
+
+.CommentMenuTitle {
+  padding: 0.4em 0 1.6em 0;
+  font-size: 140%;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  border-bottom: 3px solid #47b2d0;
+  color: #47b2d0;
+}
+#EntryBlock .CommentMenuTitle {
+  padding: 0 0 1rem;
+  margin: 0 0 1rem;
+  font-size: 18px;
+  text-align: left;
+}
+/*コメントを投稿するフォーム全体の設定*/
+
+.CommentFormBlock {
+  padding: 1em 0 0;
+}
+.CommentFormBlock input {
+  padding: 8px 10px;
+}
+/*コメントフォーム項目名設定*/
+
+.CommentFormBlock table {
+  margin: 0 auto;
+}
+.CommentFormBlock table td {
+  padding: 8px;
+}
+.CommentFormTh {
+  padding: 0.7em 0.5em 0.5em 0;
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 13px;
+}
+/*コメントフォーム入力欄設定*/
+
+.CommentFormTd {
+  padding: 0 0 0.5em 0;
+}
+/*inputタグやtextareaの設定*/
+
+.CommentForms {
+  width: 320px;
+  margin: 0 5px 0 0;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+textarea.CommentForms {
+  resize: none;
+}
+.CommentFormBlock select {
+  border: 1px solid #cccccc;
+}
+.CommentForms_pass {
+  width: 150px;
+  vertical-align: middle;
+}
+.CommentFormTd.emoji img {
+  padding-left: 0.5em;
+  vertical-align: middle;
+}
+
+/*リンクボタン*/
+a.link_button01 {
+  background: #f0f0f0;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 3px;
+  color: #1458b4;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+/*コメントフォーム送信ボタンの設定*/
+
+.CommentFormSubmit {
+  clear: both;
+  padding: 1em 0;
+  text-align: center;
+}
+.CommentFormSubmit input {
+  padding: 0.5em 1em;
+  background: #efefef;
+  cursor: pointer;
+  font-size: 15px;
+}
+.CommentFormSubmit input:hover {
+  background: #1458b4;
+  color: #eeeeee;
+}
+/*コメントのタイトル、コメント、コメント情報の全ての背景部分*/
+
+.CommentTextBox {
+  padding: 1em 0 0;
+}
+/*コメントのタイトル部分*/
+
+.CommentTitle {
+  padding: 0.5em 0 0.2em;
+  font-size: 110%;
+  font-weight: bold;
+  line-height: 1.4;
+  border-bottom: 1px solid #eeeeee;
+}
+/*コメント部分*/
+
+.CommentText {
+  padding: 1em 0;
+  line-height: 1.4;
+}
+.CommentText * {
+  line-height: 1.4;
+}
+/*投稿者や投稿時間などが表示されている部分*/
+
+.CommentFooter {
+  padding: 0.5em 0 1em;
+  text-align: right;
+  border-top: 1px solid #eeeeee;
+}
+.CommentFooter li {
+  padding: 0 0 0 1em;
+  display: inline-block;
+  float: right;
+  font-size: 90%;
+}
+.CommentFooter li a:link, .EntryFooter li a:visited {
+  display: inline-block;
+  padding: 0 0 0 13px;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow1.gif) no-repeat 0 50%;
+  text-decoration: none;
+}
+.CommentFooter li a:hover {
+  text-decoration: underline;
+}
+/*投稿者名の部分*/
+
+.CommentUserName {
+}
+/*投稿者のホームページへのリンク部分*/
+
+.CommentURL {
+}
+/*投稿された時間が記載されている部分*/
+
+.CommentWriteDate {
+  margin-left: 1em;
+  padding: 0 0 0 13px;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow1.gif) no-repeat 0 50%;
+  text-decoration: none;
+  color: #666666;
+}
+/*コメント編集へのリンク部分*/
+
+.CommentEdit {
+}
+/*-------------------------------------------------------
+
+  コメント -> コメント編集部分デザイン
+
+-------------------------------------------------------*/
+
+.CommentBlock.edit {
+  margin: 2em auto;
+  padding: 2em;
+  border: 1px solid #cccccc;
+  width: 630px;
+  background: #fff;
+}
+/*-------------------------------------------------------
+
+  コメント -> 管理者返信部分デザイン
+
+-------------------------------------------------------*/
+
+/* 管理者返信部分全体の設定 */
+
+.CommentResBlock {
+  padding-left: 4em;
+}
+/* 管理者返信部分内側の設定 */
+
+.CommentResBox {
+  padding: 1em 0 0;
+}
+/* 管理者返信のタイトル */
+
+.CommentResTitle {
+  padding: 0.5em 0 0.2em;
+  font-size: 110%;
+  font-weight: bold;
+  line-height: 1.4;
+  border-bottom: 1px solid #eeeeee;
+}
+/* 管理者返信の本文 */
+
+.CommentResText {
+  padding: 1em 0;
+  line-height: 1.4;
+}
+/* 管理者返信のフッター */
+
+.CommentResFooter {
+  padding: 0.3em 0 1em;
+  text-align: right;
+  border-top: 1px solid #eeeeee;
+}
+.CommentResFooter ul {
+}
+.CommentResFooter li {
+  margin-left: 1em;
+  padding: 0 0 0 13px;
+  display: inline-block;
+  float: right;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow1.gif) no-repeat 0 50%;
+  text-decoration: none;
+  color: #666666;
+  font-size: 90%;
+}
+/**************************************************************************************
+
+  各プラグイン共通項目用設定
+
+**************************************************************************************/
+
+/*各プラグイン処理内の基本デザイン*/
+
+.plugin_data {
+  padding: 0 0 0.7em;
+  line-height: 1.4;
+}
+.plugin_data * {
+  padding: 0 0 0.2em;
+  line-height: 1.4;
+}
+.plugin_data .right {
+  float: right;
+}
+.plugin_data a:link, a:visited {
+  text-decoration: none;
+}
+/*各プラグイン処理内基本デザインの下に記載する日付など*/
+
+.plugin_data_date {
+  text-align: right;
+  padding: 0 0 8px;
+  border-bottom: 1px dotted #ddd;
+  margin: 0 0 10px;
+}
+.archive_img {
+  max-height: 72px;
+  overflow: hidden;
+}
+.archive_img img {
+  width: 120px;
+  height: auto;
+  min-height: 72px;
+  padding: 0;
+  border: none;
+  background: url('http://file.testboxmotto.ky-3.net/noimages.png') no-repeat, #f5f5f5;
+}
+/**************************************************************************************
+
+  カレンダープラグイン用デザイン
+
+**************************************************************************************/
+
+/*カレンダー日付移動用テーブル（前月、次月へのリンクなど）*/
+
+.CalendarMoveTable {
+  margin: 0 auto;
+  width: 80%;
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+}
+.CalendarMoveTable td {
+  height: 23px;
+  text-align: center;
+  vertical-align: middle;
+}
+.CalendarMoveTable td a:link,  .CalendarMoveTable td a:visited,  .CalendarMoveTable td a:hover {
+  text-decoration: none;
+}
+/*カレンダー日付移動用テーブル、<tr>タグ部分のデザイン*/
+
+.CalendarMoveTr {
+}
+/*カレンダー日付移動用テーブル内、左側td部分のデザイン*/
+
+.CalendarPrevTd a {
+  padding-left: 1em;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow2.gif) no-repeat 0 50%;
+}
+/*カレンダー日付移動用テーブル内、中央td部分のデザイン*/
+
+.CalendarNowTd {
+}
+/*カレンダー日付移動用テーブル内、右側td部分のデザイン*/
+
+.CalendarNextTd a {
+  padding-right: 1em;
+  background: url(http://bfile.shinobi.jp/img/ico-arrow1.gif) no-repeat right 50%;
+}
+/*カレンダー表示用テーブル*/
+
+.CalendarTable {
+  margin: 0 auto;
+  width: 80%;
+}
+.CalendarTable th, .CalendarTable td {
+  height: 23px;
+  border: 1px solid #999;
+  text-align: center;
+  vertical-align: middle;
+}
+/*-------------------------------------------------------
+
+  カレンダーテーブル -> 曜日表示部分デザイン
+
+-------------------------------------------------------*/
+
+/*曜日表示部分（<tr>タグ部分）のデザイン*/
+
+.CalendarWdayTr {
+}
+/*曜日表示部分、日曜日の<th>タグ部分デザイン*/
+
+.CalendarWdaySun {
+  text-align: center;
+  color: #dd3333;
+  background: #ffeeee;
+  font-weight: bold;
+}
+/*曜日表示部分、土曜日の<th>タグ部分デザイン*/
+
+.CalendarWdaySat {
+  text-align: center;
+  color: #3333dd;
+  background: #eeeeff;
+  font-weight: bold;
+}
+/*曜日表示部分、平日の<th>タグ部分デザイン*/
+
+.CalendarWday {
+  text-align: center;
+  font-weight: bold;
+ color#666666;
+  background: #efefef;
+}
+/*-------------------------------------------------------
+
+  カレンダーテーブル -> 日付表示部分デザイン
+
+-------------------------------------------------------*/
+
+/*日付表示部分（<tr>タグ部分）のデザイン*/
+
+.CalendarTr {
+}
+/*日付表示部分、日曜日の<td>タグ部分デザイン*/
+
+.CalendarTdSun {
+  text-align: center;
+}
+/*日付表示部分、土曜日の<td>タグ部分デザイン*/
+
+.CalendarTdSat {
+  text-align: center;
+}
+/*日付表示部分、平日曜日の<td>タグ部分デザイン*/
+
+.CalendarTd {
+  text-align: center;
+ color#666666;
+}
+/*記事が存在する場所の設定*/
+
+.CalendarTdLink {
+}
+.CalendarTdLink a {
+  padding: 4px 0;
+  display: block;
+  height: 15px;
+  text-align: center;
+}
+.CalendarTdLink a:hover {
+}
+/*記事が存在する日付の文字色の設定*/
+
+.CalendarTdLinkFont {
+  font-weight: bold;
+}
+/**************************************************************************************
+
+  ブログ内検索用デザイン
+
+**************************************************************************************/
+
+.blogsearch .box {
+  width: 200px;
+  padding: 3px;
+}
+.blogsearch .btn {
+  background: #efefef;
+  cursor: pointer;
+  padding: 3px 14px;
+}
+.blogsearch .btn:hover {
+  background: #f9f9f9;
+  color: #999999;
+}
+/**************************************************************************************
+
+  バーコード用デザイン
+
+**************************************************************************************/
+
+.qrcode_image {
+  text-align: center;
+}
+/* :::::: toggle button :::::: */
+
+ 
+
+#navTgl, .open, .menu {
+  display: none;
+  overflow: hidden;
+}
+
+/**************************************************************************************
+
+レスポンシブ (タブレット以下)
+
+**************************************************************************************/
+
+/* 980px */
+
+@media screen and (max-width:980px) {
+body, .PluginBlock {
+  max-width: 980px;
+}
+}
+
+/* 768px */
+
+@media screen and (max-width:768px) {
+body, .PluginBlock {
+  max-width: 768px;
+}
+#TopBlock {
+  width: 96%;
+  margin: 0 auto;
+  padding: 60px 2% 150px;
+}
+#TopTitle {
+  width: 100%;
+  padding: 0;
+}
+#TopText {
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+#MainBlock, #EntryBlockTop {
+  width: 100%;
+}
+#MenuPage {
+  padding: 5px 10px 0 0;
+}
+#MenuPage ul {
+  display: none;
+  width: 95%;
+}
+.EntryText {
+  line-height: 1.75;
+  font-size: 15px;
+  padding: 0;
+}
+#EntryBlock {
+  padding: 1% 1.5% 2em;
+  width: 96%;
+  margin: 0 auto;
+}
+#EntryBlockTop {
+  margin: 10px 0;
+}
+#TopExplanation {
+  margin: 0.5em auto 0;
+}
+#EntryNote {
+  padding: 0 0 5px;
+}
+.EntryNote ul {
+  padding: 5px 0 8px;
+}
+#MainBlock {
+  display: block;
+  max-width: 100%;
+}
+.RightBox {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.RightBox .ninja-recommend-block {
+  margin: 15px auto;
+}
+#EntryBlock {
+  margin: 10px auto 0;
+  padding: 0;
+  float: none !important;
+  background: none;
+  width: 95%;
+}
+#EntryBlock .EntryTitle {
+  font-size: 26px;
+}
+.EntryInnerBlock {
+  margin: 1em 0 0;
+}
+.EntryTextBox {
+  margin: 10px 0 0;
+  background: #fff;
+  padding: 1% 3% 2em;
+  width: 94%;
+}
+PluginTitle {
+  padding: 15px 0 10px 5px;
+  margin: -15px -10px 5px;
+  color: #47b2d0;
+  border-bottom: 1px solid #47b2d0;
+}
+.PluginBlock {
+  margin: 8px auto 0;
+  padding: 15px 0px 2em 0;
+}
+.PluginInnerBlock {
+  width: 95%;
+  margin: 0 auto;
+}
+.CommentFormTh {
+  display: inline-block;
+}
+.CommentFormBlock table td {
+  padding: 0;
+  clear: both;
+  display: inline-block;
+}
+.CommentForms {
+  width: 280px;
+  margin: 0 0 10px;
+  padding: 10px;
+}
+.PageLinkBlock li a {
+  padding: 8px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 0 0 15px;
+  background: #f8f8f8;
+}
+.CommentForms_pass {
+  padding: 5px;
+}
+/* :::::: toggle button :::::: */
+
+#navTgl:checked ~ .contents {
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+}
+#navTgl {
+  display: none;
+  overflow: hidden;
+}
+label {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.open {
+  display: block;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #1485af;
+  font-size: 2em;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: background-color .6s, -webkit-transform .6s;
+  transition: background-color .6s, transform .6s;
+}
+#navTgl:checked + .open {
+  display: block;
+  background-color: rgba(114, 45, 128, 0.7);
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+}
+.close {
+  pointer-events: none;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transition: background-color .6s;
+}
+#navTgl:checked ~ .close {
+  pointer-events: auto;
+  background-color: rgba(0,0,0,.3);
+}
+#panel-btn-icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 2px;
+  margin: -1px 0 0 -7px;
+  background: #fff;
+  transition: .2s;
+}
+#panel-btn-icon:before, #panel-btn-icon:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 2px;
+  background: #fff;
+  transition: .3s;
+}
+#panel-btn-icon:before {
+  margin-top: -6px;
+}
+#panel-btn-icon:after {
+  margin-top: 4px;
+}
+#navTgl:checked + .open #panel-btn-icon {
+  background: transparent;
+}
+#navTgl:checked + .open #panel-btn-icon:before, #navTgl:checked + .open #panel-btn-icon:after {
+  margin-top: 0;
+}
+#navTgl:checked + .open #panel-btn-icon:before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  height: 1px;
+}
+#navTgl:checked + .open #panel-btn-icon:after {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  height: 1px;
+}
+/* :::::: drawer menu :::::: */
+
+.menu {
+  display: block;
+  z-index: 1;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.95);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform .6s;
+  transition: transform .6s;
+}
+#navTgl:checked ~ .menu {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.menu p,  .menu li a {
+  color: #666;
+}
+.menu p {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.menu ul,  header nav ul {
+  padding: 0;
+  margin: 0 0 20px;
+}
+.menu li {
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.menu li a,  header nav li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  transition: background-color .6s;
+  line-height: 1.6;
+}
+.menu li a:hover {
+  background-color: #fff;
+}
+}
+
+/* 384px */
+
+@media screen and (max-width:384px) {
+body, .PluginBlock {
+}
+#MainBlock, #EntryBlockTop {
+  width: 100% !important;
+}
+#MenuPage {
+  padding: 15px 10px 0 0;
+}
+#MenuPage a {
+  padding: 8px 12px;
+  text-decoration: none;
+  white-space: nowrap;
+  display: block;
+}
+.EntryInnerBlock {
+  margin: 1em auto 0;
+  padding: 2px 2% 10px;
+  width: 96%;
+}
+#EntryBlock .EntryTitle {
+  font-size: 22px;
+}
+.main01 li.ninja-recommend-article, .image-frame li.ninja-recommend-article {
+  width: 98% !important;
+  min-height: 180px;
+  margin: 0 auto !important;
+}
+.ninja-recommend.image-frame .ninja-recommend-article .ninja-recommend-article-image-box {
+  width: 100% !important;
+  height: 100% !important;
+}
+.EntryInnerBlock .ninja-recommend-article-image-box a img, .image-frame .ninja-recommend-article-image-box a img {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+}
+.EntryText iframe {
+  width: 100%;
+}
+.entryText .entryPsLink a {
+  color: #03d;
+  text-decoration: underline;
+  text-align: center;
+  background: #f5f5f5;
+  width: 100%;
+  margin: 15px auto 0;
+  padding: 20px 0;
+  display: block;
+}
+.NinjaEntryCommercial {
+  text-align: left;
+  margin: 0 0 0 -10px;
+}
+}

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+<title>UI Style Guide - layout</title>
+  
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+  
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/contents-admin.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+<!-- div.Admin-TopBlock -->
+<div class="Admin-TopBlock"> 
+    <!-- div.TopTitle -->
+    <div class="Admin-TopTitle">
+        <h1 class="Admin-TopText"><a href="index.html">UI Style Guide Layout Sample:28px</a></h1>
+    </div>
+    <!-- /div.TopTitle -->
+  
+    <!-- div.TopName -->
+    <div class="Admin-TopName">
+        <p>USER</p>
+        <p>NAME</p>
+        <div class="Admin-TopName_img">
+          
+            <ul id="fade-in" class="dropmenu">
+            <li><img src="images/icon_mymail.svg" alt="">
+              <ul>
+              <li><a href="#">USERNAME</a></li>
+              <li><a href="#">Setting</a></li>
+              <li><a href="#">Log Out</a></li>
+              <li><a href="#">submenu</a></li>
+              <li><a href="#">submenu</a></li>
+              </ul>
+            </li>
+            </ul>
+          
+        </div>
+    </div>
+    <!-- /div.TopName -->
+</div>
+<!-- /div.TopBlock --> 
+
+
+<!-- div.TopMenuPage -->
+<div class="TopMenuPage">
+    <ul>
+        <li><a href="index.html">view</a></li>
+        <li class="TopMenuPage_act"><a href="layout.html">Layout Sample</a></li>
+        <li><a href="icon.html">Icon</a></li>
+    </ul>
+</div>
+<!-- /div.TopMenuPage -->
+
+<!-- div.MainBlock -->
+<div class="MainBlock"> 
+  
+  
+    <!-- div.SideMenu -->
+    <div class="SideMenu">
+        <dl>
+            <dt>SideNaviTittle A</dt>
+            <dd><a href="#" class="active">SideNav01</a></dd>
+            <dd><a href="#">SideNav02</a></dd>
+            <dd><a href="#">SideNav03</a></dd>
+        </dl>
+        <dl>
+            <dt>SideNaviTittleB</dt>
+            <dd><a href="#">SideNav01</a></dd>
+            <dd><a href="#">SideNav02</a></dd>
+            <dd><a href="#">SideNav03</a></dd>
+        </dl>
+    </div>
+    <!-- /div.SideMenu -->
+  
+  
+
+    <!-- div.EntryBlock -->
+    <div class="EntryBlock"> 
+        
+        <!-- div.EntryInnerBlock -->
+        <div class="EntryInnerBlock"> 
+            
+            <!-- div.EntryTextBox -->
+            <div class="EntryTextBox"> 
+              
+                <!-- div.EntryNote -->
+                <div class="EntryNote">
+                <h2 class="EntryTitle"><a href="#">H2 TITLE:25px</a></h2>
+                <!-- div.EntryText -->
+                    <ul>
+                        <li class="EntryWriteDate"><a href="#">note:12px 199X/01/10 Tue.</a></li>
+                        <li class="EntryCategory"><a href="#">Category</a></li>
+                    </ul>
+                </div>
+                <!-- /div.EntryNote -->
+                <div class="EntryText">
+                    <div class="entryTextMain">
+                    letter body：15px This is the sample text of the article　This is the sample text of the article　This is the sample text of the article　This is the sample text of the article　This is the sample text of the article　　
+                    <p class="entryTextSub">Notes 12px：This is a sample annotation of the article　This is a sample annotation of the article</p>
+                    </div>
+                    <br clear="all">
+                    <div class="entryPsLink"> <a href="#" class="link_button01">Read More</a> </div>
+                </div>
+                <!-- /div.EntryText --> </div>
+            <!-- /div.EntryTextBox --> 
+            
+        </div>
+      
+        <!-- /div.EntryInnerBlock -->
+        <!-- div.EntryInnerBlock -->
+        <div class="EntryInnerBlock">
+          
+                <h3>H3 Title:19px</h3>
+                
+                <!-- div.FormInnerBlock -->
+                <div class="FormInnerBlock">
+                    <form action="" method="post">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Input</th>
+                                    <td><input class="Forms" type="text" name="name" placeholder="SAMPLE：john smith" /></td>
+                                </tr>
+                                <tr>
+                                    <th>Select</th>
+                                    <td>
+                                      <div class="select_custom select_custom_sl01">
+                                      <select class="color" name="color">
+                                            <option value="Black" style="color:Black">Black</option>
+                                            <option value="LimeGreen" style="color:LimeGreen">LimeGreen</option>
+                                            <option value="SeaGreen" style="color:SeaGreen">SeaGreen</option>
+                                            <option value="Teal" style="color:Teal">Teal</option>
+                                      </select>
+                                      </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>textarea</th>
+                                    <td><textarea class="Forms" name="comment" cols="40" rows="7" placeholder="Sample：text"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <th>RadioButton</th>
+                                    <td>
+                                      <form>
+                                      <ul>
+                                        <li><input type="radio" name="radiosample" value="1" id="radio01" /><label for="radio01">Radio Button01</label></li>
+                                        <li><input type="radio" name="radiosample" value="2" id="radio02" /><label for="radio02">Radio Button02</label></li>
+                                        <li><input type="radio" name="radiosample" value="3" id="radio03" /><label for="radio03">Radio Button03</label></li>
+                                      </ul>
+                                      </form>
+                                  </td>
+                                </tr>
+                                <tr>
+                                    <th>Chack Button</th>
+                                    <td>
+                                      <form>
+                                      <label><input type="checkbox" name="huga" value="hoge" checked />CheckBox01</label><br>
+                                      <label><input type="checkbox" name="huga" value="hoge" />CheckBox02</label><br>
+                                      <label><input type="checkbox" name="huga" value="hoge" />CheckBox03</label>
+                                      </form>
+                                  </td>
+                                </tr>
+                                <tr>
+                                    <th>0N / OFF</th>
+                                    <td>
+                                      <form>
+                                      <div class="radio_onoff">
+                                      <input type="radio" name="radiosample01" value="1" id="on1" checked /><label for="on1">ON</label><input type="radio" name="radiosample01" value="2" id="off01" /><label for="off01">OFF</label>
+                                      </div>
+                                      </form>
+                                  </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="FormSubmit text_center margin_top20px">
+                            <input type="submit" value="Cancel" class="FormSubmit_cansel" />
+                            <input type="submit" value="Storage" />
+                        </div>
+                    </form>
+                </div>
+                <!-- /div.FormInnerBlock --> 
+            
+        </div>
+        <!-- /div.EntryInnerBlock -->
+      
+        <!-- div.EntryInnerBlock -->
+        <div class="EntryInnerBlock">
+          
+          <h3>Table</h3>
+          
+          
+          <h4>Table Sample 01:</h4>
+          <table class="table-layout01 margin_bottom40px">
+            
+            <tr>
+              <th class="w5p">Nun</th>
+              <th class="w35p">NAME：12px</th>
+              <th class="w25p">STATUS</th>
+              <th class="w25p">ENROLLED</th>
+              <th class="w15p white-space_nowrap">Edit</th>
+            </tr>
+            
+            <tr>
+              <td class="w5p">01</td>
+              <td class="w30p">SAMPLE test 01：13px</td>
+              <td class="w20p">Stop</td>
+              <td class="w20p">1 Day Ago</td>
+              <td class="w15p white-space_nowrap table-layout-edit_button"><a href="#" class="table-layout-edit_icon"><img src="images/icon_edit01.svg" alt="" class="icon_edit"></a>
+              <a href="#" class="table-layout-edit_icon"><img src="images/icon_delete.svg" alt="" class="icon_deleate"></a></td>
+            </tr>
+            
+            <tr>
+              <td class="w5p">02</td>
+              <td class="w30p">SAMPLE test 02</td>
+              <td class="w20p">Active</td>
+              <td class="w20p">1 Week Ago</td>
+              <td class="w15p white-space_nowrap table-layout-edit_button"><a href="#" class="table-layout-edit_icon"><img src="images/icon_edit01.svg" alt="" class="icon_edit"></a>
+              <a href="#" class="table-layout-edit_icon"><img src="images/icon_delete.svg" alt="" class="icon_deleate"></a></td>
+            </tr>
+            
+            <tr>
+              <td class="w5p">03</td>
+              <td class="w30p">SAMPLE test 03</td>
+              <td class="w20p">ERROR</td>
+              <td class="w20p">1 Month Ago</td>
+              <td class="w15p white-space_nowrap table-layout-edit_button"><a href="#" class="table-layout-edit_icon"><img src="images/icon_edit01.svg" alt="" class="icon_edit"></a>
+              <a href="#" class="table-layout-edit_icon"><img src="images/icon_delete.svg" alt="" class="icon_deleate"></a></td>
+            </tr>
+            
+            <tr>
+              <td class="w5p">04</td>
+              <td class="w30p">SAMPLE test 04</td>
+              <td class="w20p">Active</td>
+              <td class="w20p">1 Years Ago</td>
+              <td class="w15p white-space_nowrap table-layout-edit_button"><a href="#" class="table-layout-edit_icon"><img src="images/icon_edit01.svg" alt="" class="icon_edit"></a>
+              <a href="#" class="table-layout-edit_icon"><img src="images/icon_delete.svg" alt="" class="icon_deleate"></a></td>
+            </tr>
+            
+          </table>
+            
+          
+          <h4>Table Sample 02:</h4>
+          <div class="scroll-table margin_bottom40px">
+          <table class="table-layout02">
+            
+            <tr>
+              <th class="w1p"><input type="checkbox" name="huga" value="hoge"></th>
+              <th class="w40p">NAME</th>
+              <th class="w15p min_w80">ROLE</th>
+              <th class="w25p">EMAIL</th>
+            </tr>
+            
+            <tr>
+              <td class="w1p table_checkbox"><input type="checkbox" name="huga" value="hoge"></td>
+              <td class="w40p"><img src="images/img_profile.svg" alt="" style="height: 20px; margin: -4px 5px 0 0; float: left;">Taro yamada</td>
+              <td class="w15p min_w80">
+                <div class="select_custom select_custom_sl01">
+                <select>
+                  <option value="A">Adminastor</option>
+                  <option value="B">Menber</option>
+                </select>
+              </td>
+              <td class="w25p">taro@abc.co.jp</td>
+            </tr>
+            
+            <tr>
+              <td class="w1p table_checkbox"><input type="checkbox" name="huga" value="hoge"></td>
+              <td class="w40p"><img src="images/img_profile.svg" alt="" style="height: 20px; margin: -4px 5px 0 0; float: left;">John Smith</td>
+              <td class="w15p min_w80">
+                <div class="select_custom select_custom_sl01">
+                <select>
+                  <option value="A">Adminastor</option>
+                  <option value="B" selected>Menber</option>
+                </select>
+                </div>
+              </td>
+              <td class="w25p">john@abc.co.jp</td>
+            </tr>
+            
+          </table>
+          </div>
+          
+                    
+          <h4>Table Sample 03:</h4>
+          <div class="table-layout03">
+            
+            <dl>
+              <dt class="w5p min_w30"><img src="images/img_profile.svg" alt="" style="height: 50px;"></dt>
+              <dd>External service name</dd>
+              <dd class="text_right white-space_nowrap"><a href="#" class="link_button01">Connect</a></dd>
+            </dl>
+            
+            <dl>
+              <dt class="w5p min_w30"><img src="images/img_profile.svg" alt="" style="height: 50px;"></dt>
+              <dd><h4>Google Apps</h4>Connect to calenders via taro@abc.co.jp</dd>
+              <dd class="text_right white-space_nowrap"><a href="#">Manage <img src="images/icon_arrow_right_circle.svg" alt="" style="height: 18px; margin:  0 0 -6px 4px;"></a></dd>
+            </dl>
+            
+            <dl>
+              <dt class="w5p min_w30"><img src="images/img_profile.svg" alt="" style="height: 50px;"></dt>
+              <dd><h4>Office 365</h4>Connect to your organization's calenders Connect to your organization's calendersConnect to your organization's calenders</dd>
+              <dd class="text_right white-space_nowrap"><a href="#" class="link_button01">Connect</a></dd>
+            </dl>
+            
+          </div>
+
+        </div>
+        <!-- /div.EntryInnerBlock -->
+
+      
+      
+        <!-- div.EntryInnerBlock -->
+        <div class="EntryInnerBlock">
+              
+        <!-- div.EntryNote -->
+        <div class="EntryNote">
+        <h2 class="EntryTitle"><a href="#">Conversational style layout sample</a></h2>
+        </div>
+        <!-- /div.EntryNote -->
+          
+        <div class="talkColumn is-thumbnailLeft">
+          <div class="talkColumn-thumbnail"><img src="images/icon_mymail.svg" alt=""></div>
+          <div class="talkColumn-text">Mike : Hi, I'm Mike Brown.<br>I'm a new student.</div>
+        </div>
+          
+        <div class="talkColumn is-thumbnailRight">
+          <div class="talkColumn-thumbnail"><img src="images/icon_mymail.svg" alt=""></div>
+          <div class="talkColumn-text">Yuki : Oh, you're Mike.<br>I'm Yuki.<br>Sayama Yuki.</div>
+        </div>
+          
+        <div class="talkColumn is-thumbnailLeft">
+          <div class="talkColumn-thumbnail"><img src="images/icon_mymail.svg" alt=""></div>
+          <div class="talkColumn-text">Mike : Nice to meet you, Yuki.</div>
+        </div>
+
+        </div>
+        <!-- /div.EntryInnerBlock -->
+
+
+
+        <!-- div.EntryColumnBlock -->
+        <div class="EntryColumnBlock">
+          
+          <dl class="">
+            <dt></dt>
+            <dd>Column：The width is automatically changed when the number of columns changes.</dd>
+          </dl>
+            
+          <dl class="">
+            <dt></dt>
+            <dd>
+              <h4>Column Title：16px</h4>
+              Column text Column text Column text
+            </dd>
+          </dl>
+          
+          <dl class="">
+            <dt></dt>
+            <dd>Column text Column text Column text
+              <a harf="#">Button</a>
+            </dd>
+          </dl>
+          
+          <dl class="">
+            <dt></dt>
+            <dd>Column text Column text Column text</dd>
+          </dl>
+
+
+        </div>
+        <!-- /div.EntryColumnBlock -->
+
+
+          
+          
+    </div>
+    <!-- /div.EntryBlock -->
+    
+    <div class="clear"></div>
+</div>
+<!-- /div.MainBlock -->
+<!-- div.FooterBlock -->
+<div class="FooterBlock">
+    <ul>
+        <li class="copyright">ver1.1 2018/9</li>
+    </ul>
+</div>
+  
+<!-- /div.FooterBlock --> 
+
+  
+<!-- SP navi -->
+<div class="sp_navi">
+<input type="checkbox" id="navTgl" />
+<label for="navTgl" class="open"><span id="panel-btn-icon" ></span></label>
+<label for="navTgl" class="close"></label>
+<div class="menu">
+    <ul>
+        <li><a href="index.html">View</a></li>
+          <ul>
+            <li><a href="index.html#font">Font</a></li>
+            <li><a href="index.html#color">Color Palette</a></li>
+            <li><a href="index.html#buttons">Buttons</a></li>
+            <li><a href="index.html#alert">Alert</a></li>
+            <li><a href="index.html#menu">Drop-down menu</a></li>
+            <li><a href="index.html#loadanime">Loading animation</a></li>
+          </ul>
+    </ul>
+    <ul>
+        <li><a href="layout.html">Layout</a></li>
+    </ul>
+    <ul>
+        <li><a href="icon.html">Icon</a></li>
+    </ul>
+</div>
+</div>
+<!-- SP navi -->
+
+
+<div id="page_top"><a href="#"><img src="images/icon_up02.svg" alt=""></a></div>
+<script src="https://www.hde.co.jp/common/js/jquery.min.js"></script>
+<script>
+$(function() {
+  var appear = false;
+  var pagetop = $('#page_top');
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {  
+      if (appear == false) {
+        appear = true;
+        pagetop.stop().animate({
+          'bottom': '25px', 
+          'display': 'block'
+        }, 300); 
+      }
+    } else {
+      if (appear) {
+        appear = false;
+        pagetop.stop().animate({
+          'bottom': '-100px' , 
+          'display': 'none'
+        }, 300); 
+      }
+    }
+  });
+  pagetop.click(function () {
+    $('body, html').animate({ scrollTop: 0 }, 500); 
+    return false;
+  });
+});
+</script>
+
+</body>
+</html>

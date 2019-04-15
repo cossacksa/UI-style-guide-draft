@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .loading ul {
+    display: flex;
+    padding: 0;
+    margin: 15px 0;
+    line-height: 0;
+  }
+  .loading ul li {
+    list-style: none;
+    width: 3px;
+    height: 3px;
+    background: #444;
+    margin: 0 4px;
+    border-radius: 50%;
+    animation: animate .9s infinite alternate;
+  }
+  .loading p {
+    font-family: Arial, Helvetica, "sans-serif";
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: #666;
+    margin: 0;
+  }
+	
+  @keyframes animate {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+    75% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scale(2.5);
+    }
+  }
+  .loading ul li:nth-child(1) {
+    animation-delay: .1s;
+  }
+  .loading ul li:nth-child(2) {
+    animation-delay: .2s;
+  }
+  .loading ul li:nth-child(3) {
+    animation-delay: .3s;
+  }
+  ul li:nth-child(4) {
+    animation-delay: .4s;
+  }
+  .loading ul li:nth-child(5) {
+    animation-delay: .5s;
+  }
+  .loading ul li:nth-child(6) {
+    animation-delay: .6s;
+  }
+  .loading ul li:nth-child(7) {
+    animation-delay: .7s;
+  }
+  .loading ul li:nth-child(8) {
+    animation-delay: .8s;
+  }
+  .loading ul li:nth-child(9) {
+    animation-delay: .9s;
+  }
+  .loading ul li:nth-child(10) {
+    animation-delay: .10s;
+  }
+}

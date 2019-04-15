@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F7F8F8;}
+	.st1{fill:#C9CACA;}
+	.st2{fill:#9FA0A0;}
+	.st3{fill:none;}
+</style>
+<g id="en01">
+	<path class="st0" d="M60,112.5C31.12158,112.5,7.62695,88.94824,7.62695,60C7.62695,31.05127,31.12158,7.5,60,7.5
+		c28.87891,0,52.37305,23.55127,52.37305,52.5C112.37305,88.94824,88.87891,112.5,60,112.5z M60,13.5
+		c-25.57031,0-46.37305,20.85986-46.37305,46.5c0,25.64062,20.80273,46.5,46.37305,46.5s46.37305-20.85938,46.37305-46.5
+		C106.37305,34.35986,85.57031,13.5,60,13.5z"/>
+</g>
+<g id="en02">
+		<path class="st1" d="M101.25378,27.71442C91.65961,15.4231,76.74023,7.5,60,7.5v6c14.82489,0,28.03705,7.02002,36.53192,17.90979
+			L101.25378,27.71442z"/>
+		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0,60,60" to="360,60,60" dur="8s" repeatCount="indefinite" />
+</g>
+<g id="en03">
+		<path class="st1" d="M60,7.5v6c25.57031,0,46.37305,20.85986,46.37305,46.5c0,25.64062-20.80273,46.5-46.37305,46.5
+			c-12.80792,0-24.41864-5.2345-32.81915-13.68085l-4.24048,4.24048C32.42737,106.59247,45.53809,112.5,60,112.5
+			c28.87891,0,52.37305-23.55176,52.37305-52.5C112.37305,31.05127,88.87891,7.5,60,7.5z" />
+		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0,60,60" to="360,60,60" dur="1s" repeatCount="indefinite" />
+</g>
+</svg>
