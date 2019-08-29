@@ -154,6 +154,7 @@
   visibility: hidden;
   opacity: 0;
   transition: .5s;
+  color: #333;
 }
 #fade-in li:hover ul li a {
   visibility: visible;
@@ -229,6 +230,9 @@
 
 .EntryBlock {
   overflow: hidden;
+}
+.EntryBlock a{
+  color: #ee5216;
 }
 
 .EntryInnerBlock{

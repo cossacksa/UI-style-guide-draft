@@ -23,7 +23,7 @@ input, textarea {
 a:link, a:visited {
   outline: 0;
   text-decoration: none;
-  color: #333333;
+  color: #111;
 }
 a:hover, a:active {
   outline: 0;
