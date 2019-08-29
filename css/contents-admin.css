@@ -573,7 +573,7 @@ label.radio_text {
   text-align: center;
 }
 .alert-information {
-  color: #43728a;
+  color: #333;
   border: 1px solid #8AAFC2;
   background: url(../images/icon_close.svg) no-repeat, #dceef7;
   background-size: 10px;
@@ -581,7 +581,7 @@ label.radio_text {
 }
 .alert-warning {
   background: #F9F4DE;
-  color: #988A65;
+  color: #333;
   border: 1px solid #c2b40d;
   background: url(../images/icon_close.svg) no-repeat, #F9F4DE;
   background-size: 10px;
@@ -589,7 +589,7 @@ label.radio_text {
 }
 .alert-error {
   background: #F1D4D0;
-  color: #A67571;
+  color: #333;
   border: 1px solid #A67571;
   background: url(../images/icon_close.svg) no-repeat, #F1D4D0;
   background-size: 10px;
@@ -597,7 +597,7 @@ label.radio_text {
 }
 .alert-success {
   background: #E4F3DE;
-  color: #72816C;
+  color: #333;
   border: 1px solid #A3B29D;
   background: url(../images/icon_close.svg) no-repeat, #E4F3DE;
   background-size: 10px;

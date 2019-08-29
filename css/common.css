@@ -81,6 +81,18 @@ h4{
   line-height: 1.3;
   font-weight: bold;
 }
+h5{
+  font-size: 13px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #888;
+}
+h6{
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #888;
+}
 
 .fs72 {
   font-size: 72px;
@@ -257,6 +269,16 @@ form :focus, .FormInnerBlock table td .radio_onoff label :focus input {
 .link_color {
   background: #ee5216;
 }
+.txt_link_color {
+  color: #ee5216;  
+}
+.txt_link_color_hover {
+  color: #be2206;  
+}
+.txt_link_color_visit {
+  color: #ad0107;  
+}
+
 .sub_color_green  {
   background: #a9d051;
 }
