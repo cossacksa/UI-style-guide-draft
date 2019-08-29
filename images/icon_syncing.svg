@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19"><defs><style>.a{fill:#444;}</style></defs><title>icon_syncing02</title>
+<g>
+  <path class="a" d="M15.89753,8.0168A6.528,6.528,0,0,0,4.81815,4.96712H2.93056a7.999,7.999,0,0,1,14.464,3.04968h1.57714l-2.21985,2.67566L14.532,8.0168Z"/><path class="a" d="M2.22012,7.38029,4.44,10.056H3.02339a6.53127,6.53127,0,0,0,11.94536,3.04968H16.6652A7.9982,7.9982,0,0,1,1.554,10.056H.00027Z"/>
+</g>
+		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0,0,0" to="360,0,0" dur="3s" repeatCount="indefinite" />
+</svg>
