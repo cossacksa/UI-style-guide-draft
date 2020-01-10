@@ -7,7 +7,7 @@
 
 body {
   font-size: 13px;
-  font-family:NotoSansCJKjp-Light, 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ ProN W3' , '游ゴシック', 'Arial' , 'メイリオ' , sans-serif;
+  font-family:NotoSansCJKjp-Light, 'Helvetica Neue', Helvetica, , 'ヒラギノ角ゴ ProN W3','HiraKakuProN-W3','ヒラギノ角ゴ Pro W3','HiraKakuPro-W3' , '游ゴシック', 'Arial' , 'メイリオ' , sans-serif;
   color: #333333;
   word-wrap: break-word;
   background: #f2f2f2;
