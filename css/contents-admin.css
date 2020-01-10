@@ -744,7 +744,7 @@ label.radio_text {
   font-family: 'ヒラギノ角ゴ ProN W3','HiraKakuProN-W3','ヒラギノ角ゴ Pro W3','HiraKakuPro-W3';
 }
 .font-yugothic {
-  font-family:  "游ゴシック";
+  font-family:  "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
 }
 
 .font-list-table {
